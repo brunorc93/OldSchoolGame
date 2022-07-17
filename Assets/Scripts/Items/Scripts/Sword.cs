@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Character.Health;
+using General;
 
-
-namespace Character
+namespace Items
 {
-    public class Sword : MonoBehaviour
+    public class Sword : Item
     {
         public int Damage { get { return damageAmount; } set { damageAmount = value; } }
         private int damageAmount;
@@ -42,7 +41,7 @@ namespace Character
             if (other.gameObject != holder)
             {
                 Debug.Log("hit");
-                CharacterHealth targetHealth = other.gameObject.GetComponent<CharacterHealth>();
+                Health targetHealth = other.gameObject.GetComponent<Health>();
                 if (targetHealth != null)
                 {
                     targetHealth.TakeDamage(damageAmount);

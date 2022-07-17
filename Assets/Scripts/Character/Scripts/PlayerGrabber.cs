@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Character.Controller
+namespace Player.Controller
 {
     public class PlayerGrabber : MonoBehaviour
     {

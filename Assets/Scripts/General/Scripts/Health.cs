@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using MyBox;
 
-namespace Character.Health
+namespace General
 {
-    public class CharacterHealth : MonoBehaviour
+    public class Health : MonoBehaviour
     {
         public bool Damageable { get { return _damageable; } }
         private bool _damageable = false;

@@ -1,9 +1,10 @@
 {
-    "name": "Character",
-    "rootNamespace": "Character",
+    "name": "Player",
+    "rootNamespace": "Player",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c",
         "GUID:48c9f6afdac61634db0e0f241c7d4d51",
+        "GUID:76f31bb0b20fe514a8847f8d52f398ff",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
         "GUID:5e5bad90fdc08f447b9f20d3953aef5f"
     ],
     "includePlatforms": [],

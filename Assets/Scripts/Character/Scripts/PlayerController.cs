@@ -3,10 +3,10 @@ using UnityEngine.InputSystem;
 using System;
 using System.Collections;
 using MyBox;
-
+using General;
 using Items;
 
-namespace Character.Controller
+namespace Player.Controller
 {
     [RequireComponent(typeof(CharacterController))]
     [RequireComponent(typeof(PlayerInputHandler))]
